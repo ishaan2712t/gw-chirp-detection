@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gwdetector"
+version = "0.1.0"
+description = "Exploring LIGO open data: raw strain, PSDs and beyond"
+requires-python = ">=3.10"
+dependencies = [
+    "gwpy>=4.0",
+    "gwosc>=0.8",
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

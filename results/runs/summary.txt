@@ -1,0 +1,7 @@
+test set: 20000 noise-only examples, 500 signals per SNR
+efficiency at FAP 0.01 (mean +- std over seeds)   SNR 4 / 6 / 8
+  matched filter  0.178 / 0.790 / 0.998   (one deterministic value)
+  base (n=5)      0.150+-0.008 / 0.672+-0.013 / 0.980+-0.004   154,817 params, 211s/run
+  wide (n=5)      0.152+-0.008 / 0.684+-0.008 / 0.984+-0.002   599,297 params, 333s/run
+  long (n=5)      0.166+-0.003 / 0.713+-0.008 / 0.992+-0.001   154,817 params, 536s/run
+AUC at SNR 2/4/6/8:  MF 0.539/0.732/0.972/1.000

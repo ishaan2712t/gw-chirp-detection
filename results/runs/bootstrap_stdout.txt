@@ -1,0 +1,34 @@
+2000 resamples, FAP 0.01, wrote bootstrap_ci.csv
+cy_single_run_mean base            snr4 0.1496 [0.1204,0.1812]  
+cy_single_run_mean base            snr6 0.6716 [0.6312,0.7124]  
+cy_single_run_mean base            snr8 0.9800 [0.9684,0.9888]  
+cy_single_run_mean wide            snr4 0.1524 [0.1212,0.1828]  
+cy_single_run_mean wide            snr6 0.6836 [0.6448,0.7256]  
+cy_single_run_mean wide            snr8 0.9840 [0.9736,0.9928]  
+cy_single_run_mean long            snr4 0.1656 [0.1344,0.1980]  
+cy_single_run_mean long            snr6 0.7132 [0.6736,0.7524]  
+cy_single_run_mean long            snr8 0.9924 [0.9852,0.9980]  
+ff_MF_minus_pooled base            snr4 0.0160 [-0.0140,0.0480]  no
+ff_MF_minus_pooled base            snr6 0.0940 [0.0600,0.1300]  yes
+ff_MF_minus_pooled base            snr8 0.0140 [0.0040,0.0260]  yes
+ff_MF_minus_pooled wide            snr4 0.0200 [-0.0100,0.0580]  no
+ff_MF_minus_pooled wide            snr6 0.0860 [0.0520,0.1200]  yes
+ff_MF_minus_pooled wide            snr8 0.0120 [0.0020,0.0220]  yes
+ff_MF_minus_pooled long            snr4 0.0040 [-0.0240,0.0380]  no
+ff_MF_minus_pooled long            snr6 0.0640 [0.0280,0.0980]  yes
+ff_MF_minus_pooled long            snr8 0.0040 [0.0000,0.0100]  no
+us_single_run_mean base            snr4 0.0284 [-0.0020,0.0588]  no
+us_single_run_mean base            snr6 0.1184 [0.0868,0.1508]  yes
+us_single_run_mean base            snr8 0.0180 [0.0096,0.0288]  yes
+us_single_run_mean wide            snr4 0.0256 [-0.0036,0.0584]  no
+us_single_run_mean wide            snr6 0.1064 [0.0736,0.1368]  yes
+us_single_run_mean wide            snr8 0.0140 [0.0060,0.0236]  yes
+us_single_run_mean long            snr4 0.0124 [-0.0160,0.0408]  no
+us_single_run_mean long            snr6 0.0768 [0.0468,0.1076]  yes
+us_single_run_mean long            snr8 0.0056 [0.0004,0.0116]  yes
+ff_single_run_mean long_minus_base snr4 0.0160 [0.0048,0.0280]  yes
+ff_single_run_mean long_minus_base snr6 0.0416 [0.0276,0.0560]  yes
+ff_single_run_mean long_minus_base snr8 0.0124 [0.0068,0.0208]  yes
+ff_single_run_mean wide_minus_base snr4 0.0028 [-0.0072,0.0104]  no
+ff_single_run_mean wide_minus_base snr6 0.0120 [0.0036,0.0228]  yes
+ff_single_run_mean wide_minus_base snr8 0.0040 [0.0004,0.0088]  yes

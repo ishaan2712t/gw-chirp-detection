@@ -1,0 +1,19 @@
+# start 2026-11-09 18:05:48 device=NVIDIA GeForce RTX 4060 Laptop GPU
+{"variant": "base", "seed": 0, "params": 154817, "epochs": 40, "best_epoch": 36, "val_loss": 0.4028218984603882, "val_auc": 0.8534233788471802, "seconds": 237.1710274219513}
+{"variant": "base", "seed": 1, "params": 154817, "epochs": 40, "best_epoch": 37, "val_loss": 0.40220943093299866, "val_auc": 0.8549894925280199, "seconds": 207.73734211921692}
+{"variant": "base", "seed": 2, "params": 154817, "epochs": 40, "best_epoch": 35, "val_loss": 0.40225985646247864, "val_auc": 0.8546726005159224, "seconds": 211.03004384040833}
+{"variant": "base", "seed": 3, "params": 154817, "epochs": 40, "best_epoch": 31, "val_loss": 0.40212899446487427, "val_auc": 0.8540419298167585, "seconds": 204.04180479049683}
+# resume Mon Nov  9 18:22:04 IST 2026
+# start 2026-11-09 18:22:16 device=NVIDIA GeForce RTX 4060 Laptop GPU
+{"variant": "base", "seed": 4, "params": 154817, "epochs": 40, "best_epoch": 31, "val_loss": 0.4012620151042938, "val_auc": 0.8552427281622488, "seconds": 192.5598213672638}
+{"variant": "wide", "seed": 0, "params": 599297, "epochs": 40, "best_epoch": 36, "val_loss": 0.4004444479942322, "val_auc": 0.8560092732609856, "seconds": 327.73523926734924}
+{"variant": "wide", "seed": 1, "params": 599297, "epochs": 40, "best_epoch": 37, "val_loss": 0.4024795591831207, "val_auc": 0.8546859989325744, "seconds": 338.55824995040894}
+{"variant": "wide", "seed": 2, "params": 599297, "epochs": 40, "best_epoch": 25, "val_loss": 0.4002920687198639, "val_auc": 0.856010162782423, "seconds": 334.12196373939514}
+{"variant": "wide", "seed": 3, "params": 599297, "epochs": 40, "best_epoch": 35, "val_loss": 0.40043821930885315, "val_auc": 0.8557663783134674, "seconds": 329.2691259384155}
+{"variant": "wide", "seed": 4, "params": 599297, "epochs": 40, "best_epoch": 38, "val_loss": 0.39992761611938477, "val_auc": 0.8558796811065646, "seconds": 335.745215177536}
+{"variant": "long", "seed": 0, "params": 154817, "epochs": 120, "best_epoch": 103, "val_loss": 0.3977413475513458, "val_auc": 0.8570286648283224, "seconds": 543.2869164943695}
+{"variant": "long", "seed": 1, "params": 154817, "epochs": 120, "best_epoch": 105, "val_loss": 0.39633721113204956, "val_auc": 0.8573224292830457, "seconds": 484.8734745979309}
+{"variant": "long", "seed": 2, "params": 154817, "epochs": 120, "best_epoch": 114, "val_loss": 0.39897945523262024, "val_auc": 0.857145025351361, "seconds": 545.1266028881073}
+{"variant": "long", "seed": 3, "params": 154817, "epochs": 120, "best_epoch": 112, "val_loss": 0.3967379033565521, "val_auc": 0.8573893101761253, "seconds": 548.7755856513977}
+{"variant": "long", "seed": 4, "params": 154817, "epochs": 120, "best_epoch": 112, "val_loss": 0.3976331651210785, "val_auc": 0.8581351739014411, "seconds": 557.2076382637024}
+# all done

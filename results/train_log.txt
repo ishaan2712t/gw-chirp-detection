@@ -1,0 +1,10 @@
+device: NVIDIA GeForce RTX 4060 Laptop GPU; 154,817 parameters; 40 epochs x 20000 examples
+epoch  0 train 0.5062 val 0.4848 auc 0.8336 (17s)
+epoch  5 train 0.4260 val 0.5852 auc 0.8491 (15s)
+epoch 10 train 0.4162 val 0.4104 auc 0.8516 (15s)
+epoch 15 train 0.4098 val 0.4098 auc 0.8513 (15s)
+epoch 20 train 0.4047 val 0.4170 auc 0.8534 (16s)
+epoch 25 train 0.4134 val 0.4121 auc 0.8534 (16s)
+epoch 30 train 0.4061 val 0.4039 auc 0.8544 (16s)
+epoch 35 train 0.4104 val 0.4033 auc 0.8553 (16s)
+done in 629s; best epoch 36 val loss 0.4023 auc 0.8552

@@ -1,0 +1,9 @@
+gwpy>=4.0
+gwosc>=0.8
+numpy
+scipy
+pytest
+matplotlib
+-e .
+# torch: on Windows plain `pip install torch` gives a CPU-only build. For an NVIDIA GPU use:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu130
