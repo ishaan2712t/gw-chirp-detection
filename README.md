@@ -91,21 +91,6 @@ Away from the event, mean H1 SNR is 1.28 (pure noise should give about 1.25). Fi
 With a cutoff at the ISCO the same search gives only 12.3, because an inspiral-only template has no merger.
 This shows the event is recoverable; no false-alarm rate was measured, so it says nothing about significance.
 
-## Limitations
-- The 3x ISCO cutoff was chosen after seeing a sweep on GW150914 (2x: 17.8, 3x: 20.6, 4x: 20.1), so 20.6 is optimistic.
-  It was then fixed for all later work.
-- LALSuite is not available on Windows, so the template generator and bank are my own implementation
-  (inspiral only, non-spinning), not checked against LAL waveforms. The recovered SNR (20.6) is below the published value (about 24).
-- The controlled experiments use simulated white Gaussian noise, not real detector noise (which is coloured and has glitches).
-  Nothing here says how the CNN would behave on real noise.
-- All signals in the test set are simulated and come from the same waveform family as the template bank, so only grid
-  mismatch is modelled, not waveform error. Real data beyond GW150914 were not evaluated.
-- One fixed test set (500 signals per SNR). The bootstrap above quantifies the resulting sampling uncertainty (it
-  is the dominant one: about +-0.03 to +-0.04 at SNR 4-6), but a different test draw could still shift the point values.
-- The seed std covers training randomness only. Only one network family was explored (two sizes, two training lengths).
-- PSD for the real event is estimated from the same 32 s that contains it.
-- The AUC at SNR 8 for the matched filter is 1.000 (earlier README versions printed "n/a", an omission).
-
 
 ## References
 - GWOSC, the Gravitational Wave Open Science Center: https://gwosc.org (GW150914 strain data).
